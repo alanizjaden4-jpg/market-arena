@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market Arena</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div id="app">
+        <h1 class="title">Market Arena</h1>
+        <button id="queueBtn">Queue Up</button>
+
+        <div id="chartScreen" class="hidden">
+            <h2 class="chart-title">XAUUSD (Gold)</h2>
+
+            <div class="chart-container">
+                <h3>15 Minute Chart</h3>
+                <div id="tv15"></div>
+            </div>
+
+            <div class="chart-container">
+                <h3>3 Minute Chart</h3>
+                <div id="tv3"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://s3.tradingview.com/tv.js"></script>
+</body>
+</html>
